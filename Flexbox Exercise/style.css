@@ -1,0 +1,113 @@
+.box {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+	flex: 1;
+}
+
+.box p {
+	font-size: 20px;
+}
+
+.box1 { background: #1abc9c; }
+.box2 { background: #3498db; }
+.box3 { background: #9b59b6; }
+.box4 { background: #34495e; }
+.box5 { background: #f1c40f; }
+.box6 { background: #e67e22; }
+.box7 { background: #666666; }
+
+
+
+.meta-wrapper { /* .body */
+display: flex;
+flex-flow: column nowrap;
+-webkit-flex-flow: column nowrap;
+border-style: solid;
+border-width: 4px;
+border-color: grey;
+height: 100%;
+}
+
+.wrapper1 {
+
+flex: 1;
+border-style: solid;
+border-width: 3px;
+border-color: red;
+display: flex;
+flex-flow: column wrap;
+-webkit-flex-flow: column wrap;
+height: 500px;
+
+}
+
+.box1 {
+flex: 1;
+}
+
+.box2 {
+flex: 5;
+}
+
+.box3 {
+flex: 1;
+}
+
+.box4 {
+flex: 8;
+}
+
+.box5 {
+flex: 1;
+}
+
+.box6 {
+flex: 7;
+}
+
+.box7 {
+flex: 1;
+}
+
+
+.wrapper2 {
+flex: 1;
+border-style: solid;
+border-width: 3px;
+border-color: blue;
+display: flex;
+flex-flow: row wrap;
+-webkit-flex-flow: row wrap;
+
+}
+
+.header2-wrapper {
+flex: 1;
+display: flex;
+flex-flow: column wrap;
+
+
+border-style: solid;
+border-width: 3px;
+border-color: pink;
+}
+
+.content2-wrapper {
+flex: 5;
+display: flex;
+flex-flow: column wrap;
+
+
+border-style: solid;
+border-width: 3px;
+border-color: yellow;
+}
+
+
+/*  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+/*  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+/*  display: -ms-flexbox;      /* TWEENER - IE 10 */
+/*  display: -webkit-flex;     /* NEW - Chrome */
+/*  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
